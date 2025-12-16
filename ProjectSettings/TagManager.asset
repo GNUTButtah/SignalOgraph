@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - AnimalSpawner
+  - Animal
+  - Key
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: 08_Sky
+    uniqueID: 1546897901
+    locked: 0
+  - name: 07_Clouds
+    uniqueID: 3918382897
+    locked: 0
+  - name: 06_Stump
+    uniqueID: 600536237
+    locked: 0
+  - name: 05_Bushes
+    uniqueID: 2741368481
+    locked: 0
+  - name: 04_Leafes
+    uniqueID: 2025178471
+    locked: 0
+  - name: 03_Floor
+    uniqueID: 2033032373
+    locked: 0
+  - name: Player
+    uniqueID: 2667775579
+    locked: 0
+  - name: 02_Bushes
+    uniqueID: 139566573
+    locked: 0
+  - name: 01_RightUp
+    uniqueID: 3672886681
+    locked: 0
+  m_RenderingLayers:
+  - Default

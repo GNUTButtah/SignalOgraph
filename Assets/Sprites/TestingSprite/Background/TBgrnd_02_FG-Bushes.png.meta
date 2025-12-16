@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: a187ef7f11b81414a84f164657ea740b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6062743248198826159
+    second: TBgrnd_02_FG-Bushes_0
+  - first:
+      213: -6956663395566835642
+    second: TBgrnd_02_FG-Bushes_1
+  - first:
+      213: -6477995611199746057
+    second: TBgrnd_02_FG-Bushes_2
+  - first:
+      213: 6327949059256196619
+    second: TBgrnd_02_FG-Bushes_3
+  - first:
+      213: 6009238431177990132
+    second: TBgrnd_02_FG-Bushes_4
+  - first:
+      213: -2619203878118157988
+    second: TBgrnd_02_FG-Bushes_5
+  - first:
+      213: 2946586763829231295
+    second: TBgrnd_02_FG-Bushes_6
+  - first:
+      213: -4834607897519477235
+    second: TBgrnd_02_FG-Bushes_7
+  - first:
+      213: -7204076795582124708
+    second: TBgrnd_02_FG-Bushes_8
+  - first:
+      213: -8138126769707774954
+    second: TBgrnd_02_FG-Bushes_9
+  - first:
+      213: -436743257888744757
+    second: TBgrnd_02_FG-Bushes_10
+  - first:
+      213: 7238242106522438884
+    second: TBgrnd_02_FG-Bushes_11
+  - first:
+      213: 2707259489862228137
+    second: TBgrnd_02_FG-Bushes_12
+  - first:
+      213: 4481579605712791171
+    second: TBgrnd_02_FG-Bushes_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TBgrnd_02_FG-Bushes_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 151
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15706b6332fccdba0800000000000000
+      internalID: -6062743248198826159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TBgrnd_02_FG-Bushes_1
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 127
+        width: 74
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648a64def77f47f90800000000000000
+      internalID: -6956663395566835642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TBgrnd_02_FG-Bushes_2
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 35
+        width: 162
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff46e140598916a0800000000000000
+      internalID: -6477995611199746057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TBgrnd_02_FG-Bushes_3
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 159
+        width: 122
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e9bb9742461d750800000000000000
+      internalID: 6327949059256196619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TBgrnd_02_FG-Bushes_4
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 159
+        width: 114
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff5dfcc38a156350800000000000000
+      internalID: 6009238431177990132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TBgrnd_02_FG-Bushes_5
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 171
+        width: 126
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51117233f7b6abd0800000000000000
+      internalID: -2619203878118157988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TBgrnd_02_FG-Bushes_6
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 51
+        width: 138
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbeb8edcc0164e820800000000000000
+      internalID: 2946586763829231295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TBgrnd_02_FG-Bushes_7
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 167
+        width: 154
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ead086bb508ecb0800000000000000
+      internalID: -4834607897519477235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TBgrnd_02_FG-Bushes_8
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 171
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d61b0c25af50c90800000000000000
+      internalID: -7204076795582124708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TBgrnd_02_FG-Bushes_9
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 175
+        width: 106
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c887212d09f0f80800000000000000
+      internalID: -8138126769707774954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TBgrnd_02_FG-Bushes_10
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 163
+        width: 242
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca9e77225060f9f0800000000000000
+      internalID: -436743257888744757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TBgrnd_02_FG-Bushes_11
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 0
+        width: 138
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec8b8598d6637460800000000000000
+      internalID: 7238242106522438884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TBgrnd_02_FG-Bushes_12
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 43
+        width: 122
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a81b00992e129520800000000000000
+      internalID: 2707259489862228137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TBgrnd_02_FG-Bushes_13
+      rect:
+        serializedVersion: 2
+        x: 2723
+        y: 59
+        width: 122
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386652f28e4c13e30800000000000000
+      internalID: 4481579605712791171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TBgrnd_02_FG-Bushes_0: -6062743248198826159
+      TBgrnd_02_FG-Bushes_1: -6956663395566835642
+      TBgrnd_02_FG-Bushes_10: -436743257888744757
+      TBgrnd_02_FG-Bushes_11: 7238242106522438884
+      TBgrnd_02_FG-Bushes_12: 2707259489862228137
+      TBgrnd_02_FG-Bushes_13: 4481579605712791171
+      TBgrnd_02_FG-Bushes_2: -6477995611199746057
+      TBgrnd_02_FG-Bushes_3: 6327949059256196619
+      TBgrnd_02_FG-Bushes_4: 6009238431177990132
+      TBgrnd_02_FG-Bushes_5: -2619203878118157988
+      TBgrnd_02_FG-Bushes_6: 2946586763829231295
+      TBgrnd_02_FG-Bushes_7: -4834607897519477235
+      TBgrnd_02_FG-Bushes_8: -7204076795582124708
+      TBgrnd_02_FG-Bushes_9: -8138126769707774954
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
