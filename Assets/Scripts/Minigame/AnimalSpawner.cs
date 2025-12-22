@@ -18,6 +18,11 @@ public class AnimalSpawner : MonoBehaviour
     public int caught;
     public int missed;
 
+    public Color baseCol;
+    public Color pressedCol;
+    public Color animalCol;
+
+
     bool gameActive;
 
     private void Update()

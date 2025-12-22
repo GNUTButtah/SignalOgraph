@@ -129,7 +129,6 @@ GameObject:
   m_Component:
   - component: {fileID: 43266277}
   - component: {fileID: 43266278}
-  - component: {fileID: 43266279}
   m_Layer: 0
   m_Name: TBgrnd_03_MG-Floor
   m_TagString: Untagged
@@ -207,20 +206,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &43266279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 43266276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5067c29d9ce7f81498389adf94bfd678, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 519420028}
-  parallaxEffect: 0.6
 --- !u!1 &87392750
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,7 +255,6 @@ GameObject:
   m_Component:
   - component: {fileID: 411924521}
   - component: {fileID: 411924522}
-  - component: {fileID: 411924523}
   m_Layer: 0
   m_Name: TBgrnd_07_BG-Clouds
   m_TagString: Untagged
@@ -287,9 +271,9 @@ Transform:
   m_GameObject: {fileID: 411924520}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: 0, z: 6}
+  m_LocalScale: {x: 1.45, y: 1.45, z: 1.45}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 87392751}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -348,20 +332,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &411924523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 411924520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5067c29d9ce7f81498389adf94bfd678, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 519420028}
-  parallaxEffect: 0.8
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,7 +437,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
-  orthographic: 1
+  orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -493,7 +463,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.83, y: 1.63, z: -10}
+  m_LocalPosition: {x: 3.83, y: 1.63, z: -16.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -593,7 +563,6 @@ GameObject:
   m_Component:
   - component: {fileID: 784161469}
   - component: {fileID: 784161470}
-  - component: {fileID: 784161471}
   m_Layer: 0
   m_Name: TBgrnd_02_FG-Bushes
   m_TagString: Untagged
@@ -612,7 +581,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 87392751}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -671,20 +640,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &784161471
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 784161468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5067c29d9ce7f81498389adf94bfd678, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 519420028}
-  parallaxEffect: 0.6
 --- !u!1 &814864959
 GameObject:
   m_ObjectHideFlags: 0
@@ -917,7 +872,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1340681235}
   - component: {fileID: 1340681236}
-  - component: {fileID: 1340681237}
   m_Layer: 0
   m_Name: TBgrnd_01_FG-RightUp
   m_TagString: Untagged
@@ -934,9 +888,9 @@ Transform:
   m_GameObject: {fileID: 1340681234}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: 0, z: -6}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 87392751}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -995,20 +949,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1340681237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1340681234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5067c29d9ce7f81498389adf94bfd678, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 519420028}
-  parallaxEffect: 0.3
 --- !u!1 &1483285092
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,7 +959,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1483285093}
   - component: {fileID: 1483285094}
-  - component: {fileID: 1483285095}
   m_Layer: 0
   m_Name: TBgrnd_08_BG-Sky
   m_TagString: Untagged
@@ -1036,9 +975,9 @@ Transform:
   m_GameObject: {fileID: 1483285092}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: 0, z: 6}
+  m_LocalScale: {x: 1.45, y: 1.45, z: 1.45}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 87392751}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1097,20 +1036,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1483285095
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1483285092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5067c29d9ce7f81498389adf94bfd678, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 519420028}
-  parallaxEffect: 1
 --- !u!1 &1581139813
 GameObject:
   m_ObjectHideFlags: 0
@@ -1121,7 +1046,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1581139814}
   - component: {fileID: 1581139815}
-  - component: {fileID: 1581139816}
   m_Layer: 0
   m_Name: TBgrnd_06_MG-Stump
   m_TagString: Untagged
@@ -1138,9 +1062,9 @@ Transform:
   m_GameObject: {fileID: 1581139813}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: 0, z: 4}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 87392751}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1199,20 +1123,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1581139816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581139813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5067c29d9ce7f81498389adf94bfd678, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 519420028}
-  parallaxEffect: 0.58
 --- !u!1 &1614823103
 GameObject:
   m_ObjectHideFlags: 0
@@ -1223,7 +1133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1614823104}
   - component: {fileID: 1614823105}
-  - component: {fileID: 1614823106}
   m_Layer: 0
   m_Name: TBgrnd_05_MG-Bushes
   m_TagString: Untagged
@@ -1240,9 +1149,9 @@ Transform:
   m_GameObject: {fileID: 1614823103}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalScale: {x: 1.15, y: 1.15, z: 1.15}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 87392751}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1301,20 +1210,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1614823106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1614823103}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5067c29d9ce7f81498389adf94bfd678, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 519420028}
-  parallaxEffect: 0.6
 --- !u!1 &1898666705
 GameObject:
   m_ObjectHideFlags: 0
@@ -1325,7 +1220,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1898666706}
   - component: {fileID: 1898666707}
-  - component: {fileID: 1898666708}
   m_Layer: 0
   m_Name: TBgrnd_04_MG-Leafes
   m_TagString: Untagged
@@ -1342,9 +1236,9 @@ Transform:
   m_GameObject: {fileID: 1898666705}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: 0, z: 3}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 87392751}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1403,20 +1297,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1898666708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1898666705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5067c29d9ce7f81498389adf94bfd678, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 519420028}
-  parallaxEffect: 0.6
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

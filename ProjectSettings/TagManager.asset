@@ -7,6 +7,9 @@ TagManager:
   - AnimalSpawner
   - Animal
   - Key
+  - SRGB
+  - DrawHandler
+  - Brush
   layers:
   - Default
   - TransparentFX

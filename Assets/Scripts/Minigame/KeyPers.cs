@@ -3,6 +3,7 @@ using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
+using static KeyPers;
 
 
 
@@ -17,7 +18,17 @@ public class KeyPers : MonoBehaviour
     public float timerTime;
 
     private AnimalSpawner aSpawn;
+    private DrawHandler dHandler;
+    [SerializeField] SignalRGBManager sRGB;
 
+    public enum RecolourState
+    {
+        animalPressed,
+        animalPresent,
+        animalReset,
+
+        draw,
+    }
 
     bool animalPresent;
 
@@ -26,11 +37,21 @@ public class KeyPers : MonoBehaviour
         aSpawn = GameObject.FindGameObjectWithTag("AnimalSpawner").GetComponent<AnimalSpawner>();
         aSpawn.OnAnimalSpawned += AnimalAppeared;
 
+        dHandler = GameObject.FindGameObjectWithTag("DrawHandler").GetComponent<DrawHandler>();
+        dHandler.OnWhoToDraw += DrawResponse;
+
+        sRGB = GameObject.FindGameObjectWithTag("SRGB").GetComponent<SignalRGBManager>();
+        
+
+
         if (gameID == 0)
         {
-            baseColor = Color.white;
-            pressedColor = Color.red;
-            animalColor = Color.yellow;
+            baseColor = aSpawn.baseCol;
+            pressedColor = aSpawn.pressedCol;
+            animalColor = aSpawn.animalCol;
+
+            sRGB.SetKeyColor(idKeyCode, baseColor);
+            sRGB.Apply();
 
             timerTime = 3f;
         }
@@ -42,7 +63,7 @@ public class KeyPers : MonoBehaviour
             transform.GetChild(0).CompareTag("Animal"))
         {
             animalPresent = true;
-            recolourEverything(2);
+            recolourEverything(RecolourState.animalPresent);
             StartCoroutine(Deleter(true));
         }
     }
@@ -52,7 +73,7 @@ public class KeyPers : MonoBehaviour
         if (animalPresent &&
             Input.GetKeyDown((KeyCode)Enum.Parse(typeof(KeyCode), idKeyCode)))
         {
-            recolourEverything(1);
+            recolourEverything(RecolourState.animalPresent);
             StartCoroutine(Deleter(false));
         }
     }
@@ -74,26 +95,48 @@ public class KeyPers : MonoBehaviour
             Destroy(transform.GetChild(0).gameObject);
             aSpawn.caught++;
         }
-        recolourEverything(3);
+        recolourEverything(RecolourState.animalPressed);
         animalPresent = false;
         StopAllCoroutines();
     }
 
-    private void recolourEverything(int whatStep)
+    private void DrawResponse(object sender, EventArgs e)
     {
-        if (whatStep == 1) // Nachdem Geklickt wurde und das Tier fotografiert wird.
-        {
-            gameObject.GetComponent<SpriteRenderer>().color = pressedColor;
+        if (transform.childCount > 0)
+        { 
 
-            //Der Code vom RGB zeug :P
+            recolourEverything(RecolourState.draw);
+            
+            Destroy(transform.GetChild(0).gameObject);
         }
-        if (whatStep == 2) // Wenn das Tier präsent ist
+    }
+
+
+    private void recolourEverything(RecolourState state)
+    {
+        switch (state)
         {
-            gameObject.GetComponent<SpriteRenderer>().color = animalColor;
+            case RecolourState.animalPressed:
+                GetComponent<SpriteRenderer>().color = pressedColor;
+                sRGB.SetKeyColor(idKeyCode, pressedColor);
+                break;
+
+            case RecolourState.animalPresent:
+                GetComponent<SpriteRenderer>().color = animalColor;
+                sRGB.SetKeyColor(idKeyCode, animalColor);
+                break;
+
+            case RecolourState.animalReset:
+                GetComponent<SpriteRenderer>().color = baseColor;
+                sRGB.SetKeyColor(idKeyCode, baseColor);
+                break;
+
+            case RecolourState.draw:
+                GetComponent<SpriteRenderer>().color = dHandler.currentColor;
+                sRGB.SetKeyColor(idKeyCode, dHandler.currentColor);
+                break;
         }
-        if (whatStep == 3) // Wenn das Tier wieder weg ist
-        {
-            gameObject.GetComponent<SpriteRenderer>().color = baseColor;
-        }
+
+        sRGB.Apply();
     }
 }
