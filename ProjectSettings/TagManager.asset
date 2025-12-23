@@ -10,6 +10,7 @@ TagManager:
   - SRGB
   - DrawHandler
   - Brush
+  - Stopper
   layers:
   - Default
   - TransparentFX
@@ -73,6 +74,9 @@ TagManager:
     locked: 0
   - name: 01_RightUp
     uniqueID: 3672886681
+    locked: 0
+  - name: 00_UI
+    uniqueID: 274673691
     locked: 0
   m_RenderingLayers:
   - Default

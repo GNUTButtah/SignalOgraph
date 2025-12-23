@@ -17,22 +17,25 @@ public class KeyPers : MonoBehaviour
     public int gameID;
     public float timerTime;
 
-    private AnimalSpawner aSpawn;
-    private DrawHandler dHandler;
+    [SerializeField] AnimalSpawner aSpawn;
+    [SerializeField]  DrawHandler dHandler;
     [SerializeField] SignalRGBManager sRGB;
 
     public enum RecolourState
     {
+        simpleBase,
+
         animalPressed,
         animalPresent,
         animalReset,
 
         draw,
+
     }
 
     bool animalPresent;
 
-    private void Start()
+    private void Awake()
     {
         aSpawn = GameObject.FindGameObjectWithTag("AnimalSpawner").GetComponent<AnimalSpawner>();
         aSpawn.OnAnimalSpawned += AnimalAppeared;
@@ -94,6 +97,7 @@ public class KeyPers : MonoBehaviour
         {
             Destroy(transform.GetChild(0).gameObject);
             aSpawn.caught++;
+
         }
         recolourEverything(RecolourState.animalPressed);
         animalPresent = false;
@@ -135,8 +139,13 @@ public class KeyPers : MonoBehaviour
                 GetComponent<SpriteRenderer>().color = dHandler.currentColor;
                 sRGB.SetKeyColor(idKeyCode, dHandler.currentColor);
                 break;
+            case RecolourState.simpleBase:
+                GetComponent<SpriteRenderer>().color = Color.white;
+                sRGB.SetKeyColor(idKeyCode, Color.white);
+                break;
         }
 
         sRGB.Apply();
     }
+
 }

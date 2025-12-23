@@ -49,4 +49,6 @@ public class SignalRGBManager : MonoBehaviour
 
         Debug.Log("SignalRGB HTML colors block updated: " + htmlFilePath);
     }
+
+
 }

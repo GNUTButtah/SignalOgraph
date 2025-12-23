@@ -10,11 +10,13 @@ public class AnimalSpawner : MonoBehaviour
     public event EventHandler OnAnimalSpawned;
 
     [SerializeField] float spawnTime;
+    [SerializeField] int toCatch;
     [SerializeField] GameObject animal;
     [SerializeField] GameObject[] keys;
+    [SerializeField] GameObject stopper;
 
-    [SerializeField] TextMeshProUGUI caughtTMP;
-    [SerializeField] TextMeshProUGUI missedTMP;
+    //[SerializeField] TextMeshProUGUI caughtTMP;
+    //[SerializeField] TextMeshProUGUI missedTMP;
     public int caught;
     public int missed;
 
@@ -27,24 +29,26 @@ public class AnimalSpawner : MonoBehaviour
 
     private void Update()
     {
-        caughtTMP.text = "Caught: " + caught + " :)";
-        missedTMP.text = "Missed: " + missed + " :(";
+        if (caught >= toCatch)
+        {
+            Instantiate(stopper, transform);
+            StopAllCoroutines();
+            gameActive = false;
+        }
     }
 
     private void Start()
     {
+        gameObject.SetActive(false);
         keys = GameObject.FindGameObjectsWithTag("Key");
     }
 
-    public void StartTheGame()
+    private void OnEnable()
     {
         gameActive = true;
         StartCoroutine(SpawnInterval());
     }
-    public void EndTheGame()
-    {
-        gameActive = false;
-    }
+
 
     private IEnumerator SpawnInterval()
     {
@@ -69,4 +73,6 @@ public class AnimalSpawner : MonoBehaviour
         Instantiate(animal, selectedKey.transform);
         OnAnimalSpawned?.Invoke(this, null);
     }
+
+    
 }

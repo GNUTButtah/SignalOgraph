@@ -1,15 +1,18 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class DrawHandler : MonoBehaviour
 {
     [SerializeField] SignalRGBManager sRGB;
-
+    [SerializeField] GameObject stopDrawingButton;
+    
 
     [SerializeField] GameObject[] keys;
     [SerializeField] GameObject brush;
+    [SerializeField] GameObject stopper;
 
     public int colorCycler;
 
@@ -17,6 +20,7 @@ public class DrawHandler : MonoBehaviour
 
     public Color[] drawingColors;
     public Color currentColor;
+
 
     private void Start()
     {
@@ -29,6 +33,8 @@ public class DrawHandler : MonoBehaviour
 
     private void Update()
     {
+        stopDrawingButton.SetActive(gameObject.activeInHierarchy);
+
         if (Input.anyKeyDown)
         {
             foreach (var key in keys)
@@ -42,7 +48,7 @@ public class DrawHandler : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
-            if (colorCycler >= drawingColors.Length - 1)
+            if (colorCycler >= drawingColors.Length - 1) 
             {
                 colorCycler = 0;
             }
@@ -54,5 +60,11 @@ public class DrawHandler : MonoBehaviour
             sRGB.SetKeyColor("LeftControl", drawingColors[colorCycler]);
             sRGB.Apply();
         }
+    }
+
+    public void DrawStopper()
+    {
+        stopDrawingButton.SetActive(false);
+        Instantiate(stopper, transform);
     }
 }
