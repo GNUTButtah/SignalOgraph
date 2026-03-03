@@ -9,6 +9,8 @@ using static KeyPers;
 
 public class KeyPers : MonoBehaviour
 {
+    public event EventHandler languageTracerFound;
+
     public string idKeyCode;
     public Color baseColor;
     public Color pressedColor;
@@ -16,6 +18,9 @@ public class KeyPers : MonoBehaviour
 
     public int gameID;
     public float timerTime;
+
+    public int positionX;
+    public int positionY;
 
     [SerializeField] AnimalSpawner aSpawn;
     [SerializeField]  DrawHandler dHandler;
@@ -30,7 +35,6 @@ public class KeyPers : MonoBehaviour
         animalReset,
 
         draw,
-
     }
 
     bool animalPresent;
@@ -79,6 +83,14 @@ public class KeyPers : MonoBehaviour
             recolourEverything(RecolourState.animalPresent);
             StartCoroutine(Deleter(false));
         }
+
+        if (transform.childCount > 0
+            && transform.GetChild(0).CompareTag("LanguageTracer"))
+        {
+            languageTracerFound?.Invoke(this, null);
+        }
+
+
     }
 
     private IEnumerator Deleter(bool despawned)
