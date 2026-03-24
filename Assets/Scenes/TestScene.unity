@@ -1185,7 +1185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ad839be815bbf408563b02f8365b78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  htmlFilePath: C:\Users\gabri\Documents\WhirlwindFX\Effects\JSON_EffectTest.html
+  htmlFilePath: C:\Users\Gabriel\Documents\WhirlwindFX\Effects\JSON_EffectTest.html
 --- !u!1 &352621263
 GameObject:
   m_ObjectHideFlags: 0
