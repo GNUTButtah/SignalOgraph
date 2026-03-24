@@ -3,7 +3,6 @@ using UnityEngine;
 public class DebugActivate : MonoBehaviour
 {
     [SerializeField] bool inside;
-    [SerializeField] bool kbDebug = false;
     [SerializeField] GameObject keyboard;
 
 
@@ -25,16 +24,14 @@ public class DebugActivate : MonoBehaviour
     {
         if (inside && Input.GetKeyDown(KeyCode.E))
         {
-            if (kbDebug == false)
+            if (keyboard.activeInHierarchy == false)
             {
-                keyboard.transform.position = new Vector3(keyboard.transform.position.x, 1000f, keyboard.transform.position.z);
-                kbDebug = true;
+                keyboard.SetActive(true);
             }
-            else if (kbDebug == true)
+            else if (keyboard.activeInHierarchy == true)
             {
-                keyboard.transform.position = new Vector3(keyboard.transform.position.x, -2000f, keyboard.transform.position.z);
+                keyboard.SetActive(false);
             }
         }
     }
-
 }
