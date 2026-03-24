@@ -11,6 +11,8 @@ public class DecoderHandler : MonoBehaviour
 
     GameObject[] reachableKeysSave;
 
+    public GameObject stopper;
+
     public enum personalRecolour
     {
         restart,
@@ -55,7 +57,19 @@ public class DecoderHandler : MonoBehaviour
             if (Input.GetKeyDown(key))
             {
                 MoveLocator(locatorStates.moveNormal, null, key);
+            }
+            if (Input.GetKeyDown(KeyCode.DownArrow))
+            {
+                
+                if (GameObject.FindGameObjectsWithTag("Locator") != null)
+                {
 
+                    foreach (var Locator in GameObject.FindGameObjectsWithTag("Locator"))
+                    {
+                        Destroy(Locator);
+                    }
+                }
+                Instantiate(stopper, transform);
             }
         }
     }

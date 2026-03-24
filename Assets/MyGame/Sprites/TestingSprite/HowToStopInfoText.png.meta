@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: ec6ae3b7afab5544894d8a446c7aea5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8182779413853422068
+    second: HowToStopInfoText_0
+  - first:
+      213: 418627685093744007
+    second: HowToStopInfoText_1
+  - first:
+      213: 1155007641577405507
+    second: HowToStopInfoText_2
+  - first:
+      213: -5867274233951236307
+    second: HowToStopInfoText_3
+  - first:
+      213: 8348086023432059911
+    second: HowToStopInfoText_4
+  - first:
+      213: 5241129569937977503
+    second: HowToStopInfoText_5
+  - first:
+      213: 712427588573415564
+    second: HowToStopInfoText_6
+  - first:
+      213: 301482973783157059
+    second: HowToStopInfoText_7
+  - first:
+      213: -1661006512795178024
+    second: HowToStopInfoText_8
+  - first:
+      213: -5806610690899646060
+    second: HowToStopInfoText_9
+  - first:
+      213: 6960670024193333327
+    second: HowToStopInfoText_10
+  - first:
+      213: 7572582458258332476
+    second: HowToStopInfoText_11
+  - first:
+      213: 428978143187313444
+    second: HowToStopInfoText_12
+  - first:
+      213: 2929342676400281835
+    second: HowToStopInfoText_13
+  - first:
+      213: -3068317419726280825
+    second: HowToStopInfoText_14
+  - first:
+      213: 5548523537065590776
+    second: HowToStopInfoText_15
+  - first:
+      213: -8230222610995579252
+    second: HowToStopInfoText_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HowToStopInfoText_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 39
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e33e13a7de07e80800000000000000
+      internalID: -8182779413853422068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToStopInfoText_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 49
+        width: 92
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d182f59a34fc500800000000000000
+      internalID: 418627685093744007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToStopInfoText_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 39
+        width: 92
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c351d9459670010800000000000000
+      internalID: 1155007641577405507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToStopInfoText_3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 69
+        width: 32
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fc88d9b21439ea0800000000000000
+      internalID: -5867274233951236307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToStopInfoText_4
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 49
+        width: 82
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c321d120c5ad370800000000000000
+      internalID: 8348086023432059911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToStopInfoText_5
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 49
+        width: 132
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90f2fd339b3cb840800000000000000
+      internalID: 5241129569937977503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToStopInfoText_6
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 59
+        width: 122
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c884b110e1d03e900800000000000000
+      internalID: 712427588573415564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToStopInfoText_7
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 59
+        width: 62
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3496c26da251f2400800000000000000
+      internalID: 301482973783157059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToStopInfoText_8
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 49
+        width: 82
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dbab33806be2f8e0800000000000000
+      internalID: -1661006512795178024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToStopInfoText_9
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 59
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499e0f36756ca6fa0800000000000000
+      internalID: -5806610690899646060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToStopInfoText_10
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 49
+        width: 122
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48d0cef184499060800000000000000
+      internalID: 6960670024193333327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToStopInfoText_11
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 39
+        width: 82
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b97d0ef97371960800000000000000
+      internalID: 7572582458258332476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToStopInfoText_12
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 49
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4232611395904f500800000000000000
+      internalID: 428978143187313444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToStopInfoText_13
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 39
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be81b34d4ad17a820800000000000000
+      internalID: 2929342676400281835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToStopInfoText_14
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 49
+        width: 62
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787621b30952b65d0800000000000000
+      internalID: -3068317419726280825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToStopInfoText_15
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 29
+        width: 72
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff30b672c0500d40800000000000000
+      internalID: 5548523537065590776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToStopInfoText_16
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 19
+        width: 92
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c867831142068cd80800000000000000
+      internalID: -8230222610995579252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HowToStopInfoText_0: -8182779413853422068
+      HowToStopInfoText_1: 418627685093744007
+      HowToStopInfoText_10: 6960670024193333327
+      HowToStopInfoText_11: 7572582458258332476
+      HowToStopInfoText_12: 428978143187313444
+      HowToStopInfoText_13: 2929342676400281835
+      HowToStopInfoText_14: -3068317419726280825
+      HowToStopInfoText_15: 5548523537065590776
+      HowToStopInfoText_16: -8230222610995579252
+      HowToStopInfoText_2: 1155007641577405507
+      HowToStopInfoText_3: -5867274233951236307
+      HowToStopInfoText_4: 8348086023432059911
+      HowToStopInfoText_5: 5241129569937977503
+      HowToStopInfoText_6: 712427588573415564
+      HowToStopInfoText_7: 301482973783157059
+      HowToStopInfoText_8: -1661006512795178024
+      HowToStopInfoText_9: -5806610690899646060
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
