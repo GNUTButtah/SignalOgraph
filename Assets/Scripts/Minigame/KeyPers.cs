@@ -83,7 +83,7 @@ public class KeyPers : MonoBehaviour
             recolourEverything(RecolourState.animalPresent);
             StartCoroutine(Deleter(false));
         }
-
+        
         if (transform.childCount > 0
             && transform.GetChild(0).CompareTag("LanguageTracer"))
         {
