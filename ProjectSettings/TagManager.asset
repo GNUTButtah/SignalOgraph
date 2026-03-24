@@ -11,6 +11,8 @@ TagManager:
   - DrawHandler
   - Brush
   - Stopper
+  - DHandler
+  - Locator
   layers:
   - Default
   - TransparentFX
