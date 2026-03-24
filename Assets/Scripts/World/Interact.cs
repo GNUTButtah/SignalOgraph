@@ -5,7 +5,6 @@ public class Interact : MonoBehaviour
 {
     public GameObject minigame;
     public Player player;
-    public GameObject infoText;
 
     public bool playerIn;
 
@@ -36,14 +35,13 @@ public class Interact : MonoBehaviour
         {
             minigame.SetActive(true);
             player.enabled = false;
-            infoText.SetActive(true);
         }
         else if (minigame.transform.childCount >= 1)
         {
             minigame.SetActive(false);
             Destroy(minigame.transform.GetChild(0).gameObject);
             player.enabled = true;
-            infoText.SetActive(false);
+
 
             MinigameComplete();
 
