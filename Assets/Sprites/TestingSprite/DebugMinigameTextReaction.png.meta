@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 1e50f01719afcd84fb2af263367b91c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8229238967679376557
+    second: DebugMinigameTextReaction_0
+  - first:
+      213: 3680151106146334529
+    second: DebugMinigameTextReaction_1
+  - first:
+      213: -101794289389127761
+    second: DebugMinigameTextReaction_2
+  - first:
+      213: -613580755738276587
+    second: DebugMinigameTextReaction_3
+  - first:
+      213: 8700896451714093680
+    second: DebugMinigameTextReaction_4
+  - first:
+      213: -4792725877116550680
+    second: DebugMinigameTextReaction_5
+  - first:
+      213: 6769018057896437307
+    second: DebugMinigameTextReaction_6
+  - first:
+      213: -4432121828589524867
+    second: DebugMinigameTextReaction_7
+  - first:
+      213: -8153561490820374955
+    second: DebugMinigameTextReaction_8
+  - first:
+      213: 2757783872527300946
+    second: DebugMinigameTextReaction_9
+  - first:
+      213: -6536510891304627471
+    second: DebugMinigameTextReaction_10
+  - first:
+      213: -1950794428169237034
+    second: DebugMinigameTextReaction_11
+  - first:
+      213: -218178777420621744
+    second: DebugMinigameTextReaction_12
+  - first:
+      213: -6460400731874713313
+    second: DebugMinigameTextReaction_13
+  - first:
+      213: 1102042184094396849
+    second: DebugMinigameTextReaction_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DebugMinigameTextReaction_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 39
+        width: 112
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dacd450ad31243270800000000000000
+      internalID: 8229238967679376557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DebugMinigameTextReaction_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 39
+        width: 92
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147fc99cee5821330800000000000000
+      internalID: 3680151106146334529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DebugMinigameTextReaction_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 49
+        width: 182
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa73cc412aa569ef0800000000000000
+      internalID: -101794289389127761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DebugMinigameTextReaction_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 59
+        width: 82
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d4435bd8f1c77f0800000000000000
+      internalID: -613580755738276587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DebugMinigameTextReaction_4
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 59
+        width: 32
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07210e7393bcfb870800000000000000
+      internalID: 8700896451714093680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DebugMinigameTextReaction_5
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 49
+        width: 102
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e145ac2531dc7db0800000000000000
+      internalID: -4792725877116550680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DebugMinigameTextReaction_6
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 39
+        width: 122
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b362f135f0260fd50800000000000000
+      internalID: 6769018057896437307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DebugMinigameTextReaction_7
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 29
+        width: 102
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78aaa5eda0fd72c0800000000000000
+      internalID: -4432121828589524867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DebugMinigameTextReaction_8
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 49
+        width: 32
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ed855060bb8de80800000000000000
+      internalID: -8153561490820374955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DebugMinigameTextReaction_9
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 49
+        width: 92
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2597a4912dd954620800000000000000
+      internalID: 2757783872527300946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DebugMinigameTextReaction_10
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 39
+        width: 32
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2d05de9f5a945a0800000000000000
+      internalID: -6536510891304627471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DebugMinigameTextReaction_11
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 39
+        width: 92
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd4927adc26de4e0800000000000000
+      internalID: -1950794428169237034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DebugMinigameTextReaction_12
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 49
+        width: 82
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0589052de8fd8fcf0800000000000000
+      internalID: -218178777420621744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DebugMinigameTextReaction_13
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 59
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f112fe553cb0856a0800000000000000
+      internalID: -6460400731874713313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DebugMinigameTextReaction_14
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 49
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1317e078d3b4f00800000000000000
+      internalID: 1102042184094396849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DebugMinigameTextReaction_0: 8229238967679376557
+      DebugMinigameTextReaction_1: 3680151106146334529
+      DebugMinigameTextReaction_10: -6536510891304627471
+      DebugMinigameTextReaction_11: -1950794428169237034
+      DebugMinigameTextReaction_12: -218178777420621744
+      DebugMinigameTextReaction_13: -6460400731874713313
+      DebugMinigameTextReaction_14: 1102042184094396849
+      DebugMinigameTextReaction_2: -101794289389127761
+      DebugMinigameTextReaction_3: -613580755738276587
+      DebugMinigameTextReaction_4: 8700896451714093680
+      DebugMinigameTextReaction_5: -4792725877116550680
+      DebugMinigameTextReaction_6: 6769018057896437307
+      DebugMinigameTextReaction_7: -4432121828589524867
+      DebugMinigameTextReaction_8: -8153561490820374955
+      DebugMinigameTextReaction_9: 2757783872527300946
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -29,7 +29,8 @@ public class AnimalSpawner : MonoBehaviour
 
     private void Update()
     {
-        if (caught >= toCatch)
+        if (caught >= toCatch
+            || Input.GetKeyDown(KeyCode.DownArrow))
         {
             Instantiate(stopper, transform);
             StopAllCoroutines();
@@ -39,8 +40,9 @@ public class AnimalSpawner : MonoBehaviour
 
     private void Start()
     {
-        gameObject.SetActive(false);
+        
         keys = GameObject.FindGameObjectsWithTag("Key");
+       
     }
 
     private void OnEnable()
