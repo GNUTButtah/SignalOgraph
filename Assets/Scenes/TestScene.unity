@@ -1082,7 +1082,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ad839be815bbf408563b02f8365b78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   htmlFilePath: C:\Users\Gabriel\Documents\WhirlwindFX
+=======
+  htmlFilePath: C:\Users\Gabriel\Documents\WhirlwindFX\Effects\JSON_EffectTest.html
+>>>>>>> Stashed changes
 --- !u!1 &352621263
 GameObject:
   m_ObjectHideFlags: 0
@@ -2238,11 +2242,15 @@ Transform:
   m_GameObject: {fileID: 550289006}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   m_LocalPosition: {x: -1777.6, y: -1242, z: 3610.6736}
 =======
   m_LocalPosition: {x: -1777.6, y: -1500.2, z: 3610.6736}
 >>>>>>> parent of 5408079 (a)
+=======
+  m_LocalPosition: {x: -1777.6, y: -1229.16, z: 3610.6736}
+>>>>>>> Stashed changes
   m_LocalScale: {x: 104.2, y: 104.2, z: 104.2}
   m_ConstrainProportionsScale: 1
   m_Children:
