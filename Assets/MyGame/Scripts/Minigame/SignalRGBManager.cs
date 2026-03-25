@@ -12,6 +12,12 @@ public class SignalRGBManager : MonoBehaviour
     private Dictionary<string, Color> keyColors = new Dictionary<string, Color>();
 
     // Set color for a single key
+
+    private void Awake()
+    {
+        htmlFilePath = LaunchScene.lScene.srgbPath;
+    }
+
     public void SetKeyColor(string keyName, Color color)
     {
         if (keyColors.ContainsKey(keyName))
@@ -50,5 +56,6 @@ public class SignalRGBManager : MonoBehaviour
         Debug.Log("SignalRGB HTML colors block updated: " + htmlFilePath);
     }
 
+    
 
 }

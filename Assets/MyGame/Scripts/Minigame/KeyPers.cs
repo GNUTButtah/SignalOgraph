@@ -59,10 +59,10 @@ public class KeyPers : MonoBehaviour
             pressedColor = aSpawn.pressedCol;
             animalColor = aSpawn.animalCol;
 
-            //sRGB.SetKeyColor(idKeyCode, baseColor);
-            //sRGB.Apply();
+            sRGB.SetKeyColor(idKeyCode, baseColor);
+            sRGB.Apply();
 
-            //Wieder aktivieren wenn Langauge in der Szene aktiv gesetzt wird
+            
 
             timerTime = 3f;
         }

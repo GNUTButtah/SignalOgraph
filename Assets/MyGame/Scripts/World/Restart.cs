@@ -26,7 +26,7 @@ public class Restart : MonoBehaviour
         if (playerIn
            && Input.GetKeyDown(KeyCode.E))
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(1);
         }
     }
 }
