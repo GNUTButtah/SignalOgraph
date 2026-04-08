@@ -53,7 +53,7 @@ public class SignalRGBManager : MonoBehaviour
         // 5. Datei speichern
         File.WriteAllText(htmlFilePath, newHtml);
 
-        Debug.Log("SignalRGB HTML colors block updated: " + htmlFilePath);
+        //Debug.Log("SignalRGB HTML colors block updated: " + htmlFilePath);
     }
 
     

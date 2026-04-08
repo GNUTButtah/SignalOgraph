@@ -7,7 +7,9 @@ public class DecoderHandler : MonoBehaviour
     GameObject[,] keysSorted = new GameObject[4, 15];
 
     [SerializeField] Vector2[] locatorPositions;
+    [SerializeField] int currentStage;
     [SerializeField] GameObject locator;
+
 
     GameObject[] reachableKeysSave;
 
@@ -118,7 +120,7 @@ public class DecoderHandler : MonoBehaviour
 
     public void CheckForSafety(int posX, int posY)
     {
-        if (safetyGrid[posX, posY]) // Wenn unser Player auf einem Sicheren Feld ist
+        if (safetyGrid[posX, posY] == true) // Wenn unser Player auf einem Sicheren Feld ist
         {
             GameObject[] reachableKeysGet = new GameObject[4];
 
@@ -135,11 +137,12 @@ public class DecoderHandler : MonoBehaviour
                 reachableKeysGet[3] = keysSorted[posX - 1, posY];
 
             MoveLocator(locatorStates.saveReachables, reachableKeysGet, KeyCode.None);
- 
+            Debug.Log("Der Locator ist bei " + posX + " " + posY + " Und ist SCHON sicher");
             
         }
-        else
+        else if (safetyGrid[posX, posY] != true)
         {
+            Debug.Log("Der Locator ist bei " + posX + " " + posY + " Und ist NICHT sicher");
             MoveLocator(locatorStates.restart, null, KeyCode.None);
         }
     }
@@ -159,7 +162,7 @@ public class DecoderHandler : MonoBehaviour
                     Destroy(Locator);
                 }
             }
-            Instantiate(locator, keysSorted[(int)locatorPositions[0].x, (int)locatorPositions[0].y].transform);
+            Instantiate(locator, keysSorted[(int)locatorPositions[currentStage].x, (int)locatorPositions[currentStage].y].transform);
             ColorItIn(personalRecolour.restart);
         }
 
@@ -217,8 +220,8 @@ public class DecoderHandler : MonoBehaviour
 
                     }
                 }
-                keysSorted[(int)locatorPositions[0].x, (int)locatorPositions[0].y].GetComponent<KeyPers>().recolourEverything(KeyPers.RecolourState.locatorPresent);
-                break;
+            keysSorted[(int)locatorPositions[0].x, (int)locatorPositions[0].y].GetComponent<KeyPers>().recolourEverything(KeyPers.RecolourState.animalPressed);
+            break;
 
         }
         
