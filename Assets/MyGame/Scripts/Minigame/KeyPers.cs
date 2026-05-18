@@ -63,7 +63,6 @@ public class KeyPers : MonoBehaviour
             sRGB.Apply();
 
             
-
             timerTime = 3f;
         }
 

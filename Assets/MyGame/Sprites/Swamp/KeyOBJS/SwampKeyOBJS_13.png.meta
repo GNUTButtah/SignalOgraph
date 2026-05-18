@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 529a03cd501a906439334d3e6da9a7a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8135101652660656487
+    second: SwampKeyOBJS_13_0
+  - first:
+      213: 4358398228950661487
+    second: SwampKeyOBJS_13_1
+  - first:
+      213: -719670624307760335
+    second: SwampKeyOBJS_13_2
+  - first:
+      213: -6358882398140083463
+    second: SwampKeyOBJS_13_3
+  - first:
+      213: -1601465910127710186
+    second: SwampKeyOBJS_13_4
+  - first:
+      213: 6546055068230921704
+    second: SwampKeyOBJS_13_5
+  - first:
+      213: -2697371659969291600
+    second: SwampKeyOBJS_13_6
+  - first:
+      213: -772353800933811638
+    second: SwampKeyOBJS_13_7
+  - first:
+      213: -3786093605738987086
+    second: SwampKeyOBJS_13_8
+  - first:
+      213: 6573459025182169775
+    second: SwampKeyOBJS_13_9
+  - first:
+      213: 3007113416820023024
+    second: SwampKeyOBJS_13_10
+  - first:
+      213: 3854567556557629007
+    second: SwampKeyOBJS_13_11
+  - first:
+      213: 2727078828841972521
+    second: SwampKeyOBJS_13_12
+  - first:
+      213: 1203735186412476369
+    second: SwampKeyOBJS_13_13
+  - first:
+      213: 257428957749692191
+    second: SwampKeyOBJS_13_14
+  - first:
+      213: 4232480761198019543
+    second: SwampKeyOBJS_13_15
+  - first:
+      213: -7862012103246531523
+    second: SwampKeyOBJS_13_16
+  - first:
+      213: 4024795045951321480
+    second: SwampKeyOBJS_13_17
+  - first:
+      213: -1044192800587747330
+    second: SwampKeyOBJS_13_18
+  - first:
+      213: -1479466816620788891
+    second: SwampKeyOBJS_13_19
+  - first:
+      213: 4317341102239778379
+    second: SwampKeyOBJS_13_20
+  - first:
+      213: 6042699339731809776
+    second: SwampKeyOBJS_13_21
+  - first:
+      213: 4500607228058836266
+    second: SwampKeyOBJS_13_22
+  - first:
+      213: 6196374930912090766
+    second: SwampKeyOBJS_13_23
+  - first:
+      213: 2887800570953579206
+    second: SwampKeyOBJS_13_24
+  - first:
+      213: -2874058701308903071
+    second: SwampKeyOBJS_13_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_0
+      rect:
+        serializedVersion: 2
+        x: 3243
+        y: 375
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996e77506205a1f80800000000000000
+      internalID: -8135101652660656487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_1
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 371
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69bb42f8142c7c30800000000000000
+      internalID: 4358398228950661487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_2
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 259
+        width: 162
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1333ad251673306f0800000000000000
+      internalID: -719670624307760335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_3
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 167
+        width: 242
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f250625626b0c7a0800000000000000
+      internalID: -6358882398140083463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_4
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 343
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610b0fa5d3376c9e0800000000000000
+      internalID: -1601465910127710186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_5
+      rect:
+        serializedVersion: 2
+        x: 3291
+        y: 347
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8edac0ee66248da50800000000000000
+      internalID: 6546055068230921704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_6
+      rect:
+        serializedVersion: 2
+        x: 3395
+        y: 331
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba135c34c2019ad0800000000000000
+      internalID: -2697371659969291600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_7
+      rect:
+        serializedVersion: 2
+        x: 3235
+        y: 311
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ada666f4c0845f0800000000000000
+      internalID: -772353800933811638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_8
+      rect:
+        serializedVersion: 2
+        x: 3335
+        y: 303
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1cc87dce7157bc0800000000000000
+      internalID: -3786093605738987086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_9
+      rect:
+        serializedVersion: 2
+        x: 3407
+        y: 291
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa919dd72e993b50800000000000000
+      internalID: 6573459025182169775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_10
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 267
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe5ed068b96bb920800000000000000
+      internalID: 3007113416820023024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_11
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 263
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46ec5335cc2e7530800000000000000
+      internalID: 3854567556557629007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_12
+      rect:
+        serializedVersion: 2
+        x: 3443
+        y: 255
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9233d930fb788d520800000000000000
+      internalID: 2727078828841972521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_13
+      rect:
+        serializedVersion: 2
+        x: 3391
+        y: 247
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d711cd36c684b010800000000000000
+      internalID: 1203735186412476369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_14
+      rect:
+        serializedVersion: 2
+        x: 3223
+        y: 227
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17c19de542929300800000000000000
+      internalID: 257428957749692191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_15
+      rect:
+        serializedVersion: 2
+        x: 3315
+        y: 219
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d302e1e3daccba30800000000000000
+      internalID: 4232480761198019543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_16
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 71
+        width: 314
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d343b2695a584e290800000000000000
+      internalID: -7862012103246531523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_17
+      rect:
+        serializedVersion: 2
+        x: 3435
+        y: 211
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8853eaf15c1fad730800000000000000
+      internalID: 4024795045951321480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_18
+      rect:
+        serializedVersion: 2
+        x: 3227
+        y: 191
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff62f32e284281f0800000000000000
+      internalID: -1044192800587747330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_19
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 191
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5630752d4c0e77be0800000000000000
+      internalID: -1479466816620788891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_20
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 3
+        width: 146
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b460235bbd64aeb30800000000000000
+      internalID: 4317341102239778379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_21
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 175
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5b33da80bfbd350800000000000000
+      internalID: 6042699339731809776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_22
+      rect:
+        serializedVersion: 2
+        x: 3419
+        y: 175
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d900ebd6e557e30800000000000000
+      internalID: 4500607228058836266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_23
+      rect:
+        serializedVersion: 2
+        x: 3235
+        y: 151
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a962c7b22fdf550800000000000000
+      internalID: 6196374930912090766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_24
+      rect:
+        serializedVersion: 2
+        x: 3367
+        y: 143
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cabbdda157831820800000000000000
+      internalID: 2887800570953579206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampKeyOBJS_13_25
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 0
+        width: 394
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161ccdca6da4d18d0800000000000000
+      internalID: -2874058701308903071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SwampKeyOBJS_13_0: -8135101652660656487
+      SwampKeyOBJS_13_1: 4358398228950661487
+      SwampKeyOBJS_13_10: 3007113416820023024
+      SwampKeyOBJS_13_11: 3854567556557629007
+      SwampKeyOBJS_13_12: 2727078828841972521
+      SwampKeyOBJS_13_13: 1203735186412476369
+      SwampKeyOBJS_13_14: 257428957749692191
+      SwampKeyOBJS_13_15: 4232480761198019543
+      SwampKeyOBJS_13_16: -7862012103246531523
+      SwampKeyOBJS_13_17: 4024795045951321480
+      SwampKeyOBJS_13_18: -1044192800587747330
+      SwampKeyOBJS_13_19: -1479466816620788891
+      SwampKeyOBJS_13_2: -719670624307760335
+      SwampKeyOBJS_13_20: 4317341102239778379
+      SwampKeyOBJS_13_21: 6042699339731809776
+      SwampKeyOBJS_13_22: 4500607228058836266
+      SwampKeyOBJS_13_23: 6196374930912090766
+      SwampKeyOBJS_13_24: 2887800570953579206
+      SwampKeyOBJS_13_25: -2874058701308903071
+      SwampKeyOBJS_13_3: -6358882398140083463
+      SwampKeyOBJS_13_4: -1601465910127710186
+      SwampKeyOBJS_13_5: 6546055068230921704
+      SwampKeyOBJS_13_6: -2697371659969291600
+      SwampKeyOBJS_13_7: -772353800933811638
+      SwampKeyOBJS_13_8: -3786093605738987086
+      SwampKeyOBJS_13_9: 6573459025182169775
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

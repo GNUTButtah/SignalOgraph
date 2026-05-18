@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 0cb035ff28a197449b1c9c3dd1e0d92b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1708606096339706225
+    second: SwampUpFront_0
+  - first:
+      213: -4548440763666256450
+    second: SwampUpFront_1
+  - first:
+      213: -6685087239457709152
+    second: SwampUpFront_2
+  - first:
+      213: -5448174224260837078
+    second: SwampUpFront_3
+  - first:
+      213: 7973386132257284306
+    second: SwampUpFront_4
+  - first:
+      213: 1228756817507803481
+    second: SwampUpFront_5
+  - first:
+      213: 6053090449743993057
+    second: SwampUpFront_6
+  - first:
+      213: 3823711639588463495
+    second: SwampUpFront_7
+  - first:
+      213: -4148385656491417782
+    second: SwampUpFront_8
+  - first:
+      213: -6718160848049148066
+    second: SwampUpFront_9
+  - first:
+      213: -8808821254699431612
+    second: SwampUpFront_10
+  - first:
+      213: -3231880388014369457
+    second: SwampUpFront_11
+  - first:
+      213: -5344056679993337254
+    second: SwampUpFront_12
+  - first:
+      213: -7094250745233115055
+    second: SwampUpFront_13
+  - first:
+      213: -2826706150308860618
+    second: SwampUpFront_14
+  - first:
+      213: -5670404394565019928
+    second: SwampUpFront_15
+  - first:
+      213: 1248648637574019220
+    second: SwampUpFront_16
+  - first:
+      213: 1017380937504707845
+    second: SwampUpFront_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SwampUpFront_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 187
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8eda96decfc948e0800000000000000
+      internalID: -1708606096339706225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampUpFront_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 97
+        width: 167
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd24cf5931b0e0c0800000000000000
+      internalID: -4548440763666256450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampUpFront_2
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 89
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a360a7239cc933a0800000000000000
+      internalID: -6685087239457709152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampUpFront_3
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 0
+        width: 256
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a215e70a8623464b0800000000000000
+      internalID: -5448174224260837078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampUpFront_4
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 176
+        width: 114
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0a836417827ae60800000000000000
+      internalID: 7973386132257284306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampUpFront_5
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 182
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95164e6b0db6d0110800000000000000
+      internalID: 1228756817507803481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampUpFront_6
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 172
+        width: 67
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8dc4281b5e00450800000000000000
+      internalID: 6053090449743993057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampUpFront_7
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 0
+        width: 274
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78362313a7d801530800000000000000
+      internalID: 3823711639588463495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampUpFront_8
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 144
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fd0897939fd66c0800000000000000
+      internalID: -4148385656491417782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampUpFront_9
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 96
+        width: 74
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5fe7149d4c44c2a0800000000000000
+      internalID: -6718160848049148066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampUpFront_10
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 157
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449cabf6db7c0c580800000000000000
+      internalID: -8808821254699431612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampUpFront_11
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 80
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f451adb09ed0623d0800000000000000
+      internalID: -3231880388014369457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampUpFront_12
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 0
+        width: 148
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a917973c816d5b0800000000000000
+      internalID: -5344056679993337254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampUpFront_13
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 0
+        width: 109
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15874deb8882c8d90800000000000000
+      internalID: -7094250745233115055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampUpFront_14
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 46
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63dad6a9bb585c8d0800000000000000
+      internalID: -2826706150308860618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampUpFront_15
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 0
+        width: 67
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e653290f3dae41b0800000000000000
+      internalID: -5670404394565019928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampUpFront_16
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 0
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498ffdbf157145110800000000000000
+      internalID: 1248648637574019220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampUpFront_17
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 0
+        width: 79
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505d83582967e1e00800000000000000
+      internalID: 1017380937504707845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SwampUpFront_0: -1708606096339706225
+      SwampUpFront_1: -4548440763666256450
+      SwampUpFront_10: -8808821254699431612
+      SwampUpFront_11: -3231880388014369457
+      SwampUpFront_12: -5344056679993337254
+      SwampUpFront_13: -7094250745233115055
+      SwampUpFront_14: -2826706150308860618
+      SwampUpFront_15: -5670404394565019928
+      SwampUpFront_16: 1248648637574019220
+      SwampUpFront_17: 1017380937504707845
+      SwampUpFront_2: -6685087239457709152
+      SwampUpFront_3: -5448174224260837078
+      SwampUpFront_4: 7973386132257284306
+      SwampUpFront_5: 1228756817507803481
+      SwampUpFront_6: 6053090449743993057
+      SwampUpFront_7: 3823711639588463495
+      SwampUpFront_8: -4148385656491417782
+      SwampUpFront_9: -6718160848049148066
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,9 +9,10 @@ public class locaterPers : MonoBehaviour
         parentKey = gameObject.transform.parent.gameObject;
         dHandler = GameObject.FindGameObjectWithTag("DHandler").GetComponent<DecoderHandler>();
 
+
         dHandler.CheckForSafety(parentKey.GetComponent<KeyPers>().positionX, parentKey.GetComponent<KeyPers>().positionY);
 
-        
+
     }
 
 }

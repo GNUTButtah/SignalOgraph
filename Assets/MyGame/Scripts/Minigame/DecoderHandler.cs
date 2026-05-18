@@ -1,4 +1,5 @@
 using System;
+using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 
 public class DecoderHandler : MonoBehaviour
@@ -8,7 +9,9 @@ public class DecoderHandler : MonoBehaviour
 
     [SerializeField] Vector2[] locatorPositions;
     [SerializeField] int currentStage;
+    [SerializeField] Vector2[] letterEnds;
     [SerializeField] GameObject locator;
+
 
 
     GameObject[] reachableKeysSave;
@@ -28,9 +31,7 @@ public class DecoderHandler : MonoBehaviour
 
         restart,
 
-        secondLetter,
-        thirdLetter,
-        fourthLetter,
+        toLetterStart,
 
         moveNormal
     }
@@ -49,29 +50,32 @@ public class DecoderHandler : MonoBehaviour
 
         Instantiate(locator, keysSorted[(int)locatorPositions[0].x, (int)locatorPositions[0].y].transform);
 
-        ColorItIn(personalRecolour.restart);
+        ColorItIn(personalRecolour.restart, null);
     }
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+
+            if (GameObject.FindGameObjectsWithTag("Locator") != null)
+            {
+
+                foreach (var Locator in GameObject.FindGameObjectsWithTag("Locator"))
+                {
+                    Destroy(Locator);
+                }
+            }
+            Instantiate(stopper, transform);
+        }
+
         foreach (KeyCode key in System.Enum.GetValues(typeof(KeyCode)))
         {
             if (Input.GetKeyDown(key))
             {
+                //Debug.Log(key);
                 MoveLocator(locatorStates.moveNormal, null, key);
-            }
-            if (Input.GetKeyDown(KeyCode.DownArrow))
-            {
-                
-                if (GameObject.FindGameObjectsWithTag("Locator") != null)
-                {
-
-                    foreach (var Locator in GameObject.FindGameObjectsWithTag("Locator"))
-                    {
-                        Destroy(Locator);
-                    }
-                }
-                Instantiate(stopper, transform);
+                return;
             }
         }
     }
@@ -114,7 +118,8 @@ public class DecoderHandler : MonoBehaviour
                 }
             }
         }
-        safetyGridUnedited = safetyGrid;
+
+        Array.Copy(safetyGrid, safetyGridUnedited, safetyGrid.Length);
 
     }
 
@@ -122,6 +127,12 @@ public class DecoderHandler : MonoBehaviour
     {
         if (safetyGrid[posX, posY] == true) // Wenn unser Player auf einem Sicheren Feld ist
         {
+            if (posX == (int)letterEnds[currentStage].x && posY == (int)letterEnds[currentStage].y)
+            {
+                MoveLocator(locatorStates.toLetterStart, null, KeyCode.None);
+            }
+
+
             GameObject[] reachableKeysGet = new GameObject[4];
 
             if (posY > 0)
@@ -137,17 +148,19 @@ public class DecoderHandler : MonoBehaviour
                 reachableKeysGet[3] = keysSorted[posX - 1, posY];
 
             MoveLocator(locatorStates.saveReachables, reachableKeysGet, KeyCode.None);
-            Debug.Log("Der Locator ist bei " + posX + " " + posY + " Und ist SCHON sicher");
             
         }
         else if (safetyGrid[posX, posY] != true)
         {
-            Debug.Log("Der Locator ist bei " + posX + " " + posY + " Und ist NICHT sicher");
             MoveLocator(locatorStates.restart, null, KeyCode.None);
         }
+        
+
     }
     private void MoveLocator(locatorStates whatToDoWithLocator, GameObject[] reachableKeysRecieve, KeyCode pressedKey)
     {
+        
+
         if (whatToDoWithLocator == locatorStates.saveReachables)
         {
             reachableKeysSave = reachableKeysRecieve;
@@ -155,6 +168,7 @@ public class DecoderHandler : MonoBehaviour
 
         if (whatToDoWithLocator == locatorStates.restart)
         {
+
             if (GameObject.FindGameObjectsWithTag("Locator") != null)
             {
                 foreach (var Locator in GameObject.FindGameObjectsWithTag("Locator"))
@@ -162,20 +176,23 @@ public class DecoderHandler : MonoBehaviour
                     Destroy(Locator);
                 }
             }
+            ColorItIn(personalRecolour.restart, null);
             Instantiate(locator, keysSorted[(int)locatorPositions[currentStage].x, (int)locatorPositions[currentStage].y].transform);
-            ColorItIn(personalRecolour.restart);
+            
         }
 
         if (whatToDoWithLocator == locatorStates.moveNormal)
         {
+            if (reachableKeysSave == null) return;
+
+            bool matched = false;
             foreach (var reachable in reachableKeysSave)
             {
-
-                if (reachableKeysSave == null) return;
-
                 if (reachable != null &&
                     pressedKey.ToString() == reachable.GetComponent<KeyPers>().idKeyCode)
                 {
+
+
                     if (GameObject.FindGameObjectsWithTag("Locator") != null)
                     {
                         foreach (var Locator in GameObject.FindGameObjectsWithTag("Locator"))
@@ -183,22 +200,37 @@ public class DecoderHandler : MonoBehaviour
                             Destroy(Locator);
                         }
                     }
+                    ColorItIn(personalRecolour.locator, reachable.GetComponent<KeyPers>());
                     Instantiate(locator, reachable.transform);
-                    reachable.GetComponent<KeyPers>().recolourEverything(KeyPers.RecolourState.locatorPresent);
+                    
+                    matched = true;
                     break;
                 }
-                else if (reachable != null &&
-                    pressedKey.ToString() != reachable.GetComponent<KeyPers>().idKeyCode)
-                {
-                    MoveLocator(locatorStates.restart, null, KeyCode.None);
-                }
+            }
+            if (!matched)
+            {
+                
 
+                MoveLocator(locatorStates.restart, null, KeyCode.None);
+                ColorItIn(personalRecolour.restart, null);
+
+                return;
             }
         }
+
+        if (whatToDoWithLocator == locatorStates.toLetterStart)
+        {
+            currentStage++;
+            Instantiate(locator, keysSorted[(int)locatorPositions[currentStage].x, (int)locatorPositions[currentStage].y].transform);
+
+        }
+
     }
 
-    private void ColorItIn(personalRecolour state)
+    private void ColorItIn(personalRecolour state, KeyPers keyToRecolour)
     {
+        
+
         switch (state)
         {
             case personalRecolour.restart:
@@ -220,8 +252,16 @@ public class DecoderHandler : MonoBehaviour
 
                     }
                 }
-            keysSorted[(int)locatorPositions[0].x, (int)locatorPositions[0].y].GetComponent<KeyPers>().recolourEverything(KeyPers.RecolourState.animalPressed);
-            break;
+                keysSorted[(int)locatorPositions[currentStage].x, (int)locatorPositions[currentStage].y].GetComponent<KeyPers>().recolourEverything(KeyPers.RecolourState.locatorPresent);
+                
+                break;
+
+                
+            case personalRecolour.locator:
+                 
+                keyToRecolour.recolourEverything(KeyPers.RecolourState.locatorPresent);
+                
+                break;
 
         }
         

@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: fb5dc416e4cee68458cae87d02d3cdee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3163774658700211249
+    second: MGBushesSwampRef_0
+  - first:
+      213: -4365451100532705861
+    second: MGBushesSwampRef_1
+  - first:
+      213: -7255786460962003907
+    second: MGBushesSwampRef_2
+  - first:
+      213: 8454436884130213162
+    second: MGBushesSwampRef_3
+  - first:
+      213: -2749015592260835643
+    second: MGBushesSwampRef_4
+  - first:
+      213: 2982387842652705213
+    second: MGBushesSwampRef_5
+  - first:
+      213: 8567813610847508780
+    second: MGBushesSwampRef_6
+  - first:
+      213: 2267350710116037867
+    second: MGBushesSwampRef_7
+  - first:
+      213: 6420941888509056749
+    second: MGBushesSwampRef_8
+  - first:
+      213: 5650621718034730151
+    second: MGBushesSwampRef_9
+  - first:
+      213: 529585795153854694
+    second: MGBushesSwampRef_10
+  - first:
+      213: -179157971908438347
+    second: MGBushesSwampRef_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MGBushesSwampRef_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 4592
+        height: 849
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13475392a4cf7eb20800000000000000
+      internalID: 3163774658700211249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MGBushesSwampRef_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 27
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5f86c6a5dca63c0800000000000000
+      internalID: -4365451100532705861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MGBushesSwampRef_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 27
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34654418a44e4b90800000000000000
+      internalID: -7255786460962003907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MGBushesSwampRef_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 27
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2daa867d81345570800000000000000
+      internalID: 8454436884130213162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MGBushesSwampRef_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 27
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6684d32e889d9d0800000000000000
+      internalID: -2749015592260835643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MGBushesSwampRef_5
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 27
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db112c701f1936920800000000000000
+      internalID: 2982387842652705213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MGBushesSwampRef_6
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 27
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c299258b51df6e670800000000000000
+      internalID: 8567813610847508780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MGBushesSwampRef_7
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 27
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be432b9357f377f10800000000000000
+      internalID: 2267350710116037867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MGBushesSwampRef_8
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 27
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de61204c0a4cb1950800000000000000
+      internalID: 6420941888509056749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MGBushesSwampRef_9
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 27
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac4197a38a0b6e40800000000000000
+      internalID: 5650621718034730151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MGBushesSwampRef_10
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 27
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e00d3e8977795700800000000000000
+      internalID: 529585795153854694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MGBushesSwampRef_11
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 27
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6d7b516c0838df0800000000000000
+      internalID: -179157971908438347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MGBushesSwampRef_0: 3163774658700211249
+      MGBushesSwampRef_1: -4365451100532705861
+      MGBushesSwampRef_10: 529585795153854694
+      MGBushesSwampRef_11: -179157971908438347
+      MGBushesSwampRef_2: -7255786460962003907
+      MGBushesSwampRef_3: 8454436884130213162
+      MGBushesSwampRef_4: -2749015592260835643
+      MGBushesSwampRef_5: 2982387842652705213
+      MGBushesSwampRef_6: 8567813610847508780
+      MGBushesSwampRef_7: 2267350710116037867
+      MGBushesSwampRef_8: 6420941888509056749
+      MGBushesSwampRef_9: 5650621718034730151
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

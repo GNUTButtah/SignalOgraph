@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: edc47a30c0a336740aeef6ea6e17e788
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5027625311289164457
+    second: SwampClouds_0
+  - first:
+      213: -806411468663916770
+    second: SwampClouds_1
+  - first:
+      213: -4800432594172563098
+    second: SwampClouds_2
+  - first:
+      213: 1266452042959700741
+    second: SwampClouds_3
+  - first:
+      213: 4651812645514148070
+    second: SwampClouds_4
+  - first:
+      213: -7767270814769554962
+    second: SwampClouds_5
+  - first:
+      213: 5180601741181346306
+    second: SwampClouds_6
+  - first:
+      213: -6530230007333973957
+    second: SwampClouds_7
+  - first:
+      213: 9128554075598776790
+    second: SwampClouds_8
+  - first:
+      213: 125600074431319582
+    second: SwampClouds_9
+  - first:
+      213: 1214181057798165155
+    second: SwampClouds_10
+  - first:
+      213: 5299940348601253669
+    second: SwampClouds_11
+  - first:
+      213: 7020763738950476203
+    second: SwampClouds_12
+  - first:
+      213: 2823373780020788314
+    second: SwampClouds_13
+  - first:
+      213: 5702418093418157020
+    second: SwampClouds_14
+  - first:
+      213: 5808626861900736047
+    second: SwampClouds_15
+  - first:
+      213: 5662248664710688281
+    second: SwampClouds_16
+  - first:
+      213: -1611443462842017215
+    second: SwampClouds_17
+  - first:
+      213: -1991027866370095423
+    second: SwampClouds_18
+  - first:
+      213: 8604020213927420519
+    second: SwampClouds_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SwampClouds_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 651
+        width: 678
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75db8d8ba694a3ab0800000000000000
+      internalID: -5027625311289164457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampClouds_1
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 911
+        width: 314
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e177c73ba0d0fc4f0800000000000000
+      internalID: -806411468663916770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampClouds_2
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 723
+        width: 502
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66133284dff616db0800000000000000
+      internalID: -4800432594172563098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampClouds_3
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 799
+        width: 322
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5034ea15c67539110800000000000000
+      internalID: 1266452042959700741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampClouds_4
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 839
+        width: 142
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e87a8964fe8e8040800000000000000
+      internalID: 4651812645514148070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampClouds_5
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 847
+        width: 242
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9d663c85c153490800000000000000
+      internalID: -7767270814769554962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampClouds_6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 631
+        width: 262
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20262e9e5d135e740800000000000000
+      internalID: 5180601741181346306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampClouds_7
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 679
+        width: 162
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30134f2866ff55a0800000000000000
+      internalID: -6530230007333973957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampClouds_8
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 499
+        width: 478
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9620d01932fae70800000000000000
+      internalID: 9128554075598776790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampClouds_9
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 487
+        width: 214
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ecd3c2a983eb100800000000000000
+      internalID: 125600074431319582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampClouds_10
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 375
+        width: 582
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a251133d33a9d010800000000000000
+      internalID: 1214181057798165155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampClouds_11
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 615
+        width: 442
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f3321baab2d8940800000000000000
+      internalID: 5299940348601253669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampClouds_12
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 451
+        width: 218
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba126184c63ce6160800000000000000
+      internalID: 7020763738950476203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampClouds_13
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 239
+        width: 582
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c7a4a7e73ae2720800000000000000
+      internalID: 2823373780020788314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampClouds_14
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 467
+        width: 230
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd313f21b0f032f40800000000000000
+      internalID: 5702418093418157020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampClouds_15
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 171
+        width: 418
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26a2600b536c9050800000000000000
+      internalID: 5808626861900736047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampClouds_16
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 239
+        width: 358
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ea2022929549e40800000000000000
+      internalID: 5662248664710688281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampClouds_17
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 179
+        width: 402
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a1da555b003a9e0800000000000000
+      internalID: -1611443462842017215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampClouds_18
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 195
+        width: 310
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c64b1754b27e54e0800000000000000
+      internalID: -1991027866370095423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampClouds_19
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 155
+        width: 150
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762ac6b6cce976770800000000000000
+      internalID: 8604020213927420519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SwampClouds_0: -5027625311289164457
+      SwampClouds_1: -806411468663916770
+      SwampClouds_10: 1214181057798165155
+      SwampClouds_11: 5299940348601253669
+      SwampClouds_12: 7020763738950476203
+      SwampClouds_13: 2823373780020788314
+      SwampClouds_14: 5702418093418157020
+      SwampClouds_15: 5808626861900736047
+      SwampClouds_16: 5662248664710688281
+      SwampClouds_17: -1611443462842017215
+      SwampClouds_18: -1991027866370095423
+      SwampClouds_19: 8604020213927420519
+      SwampClouds_2: -4800432594172563098
+      SwampClouds_3: 1266452042959700741
+      SwampClouds_4: 4651812645514148070
+      SwampClouds_5: -7767270814769554962
+      SwampClouds_6: 5180601741181346306
+      SwampClouds_7: -6530230007333973957
+      SwampClouds_8: 9128554075598776790
+      SwampClouds_9: 125600074431319582
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
