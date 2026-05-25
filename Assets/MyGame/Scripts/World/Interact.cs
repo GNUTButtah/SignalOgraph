@@ -31,7 +31,6 @@ public class Interact : MonoBehaviour
     private void Update()
     {
         if (playerIn
-           && Input.GetKeyDown(KeyCode.E)
            && !minigame.activeInHierarchy)
         {
             minigame.SetActive(true);
@@ -54,6 +53,7 @@ public class Interact : MonoBehaviour
     private void MinigameComplete()
     {
         GetComponent<SpriteRenderer>().color = Color.red;
+        gameObject.SetActive(false);
     }
 
 }

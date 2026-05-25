@@ -14,6 +14,8 @@ public class DrawHandler : MonoBehaviour
     [SerializeField] GameObject brush;
     [SerializeField] GameObject stopper;
 
+    GameObject reseter;
+
     public int colorCycler;
 
     public event EventHandler OnWhoToDraw;
@@ -29,6 +31,8 @@ public class DrawHandler : MonoBehaviour
         keys = GameObject.FindGameObjectsWithTag("Key");
 
         sRGB = GameObject.FindGameObjectWithTag("SRGB").GetComponent<SignalRGBManager>();
+        reseter = GameObject.FindGameObjectWithTag("KeyboardReseter");
+    
     }
 
     private void Update()
@@ -60,11 +64,19 @@ public class DrawHandler : MonoBehaviour
             sRGB.SetKeyColor("LeftControl", drawingColors[colorCycler]);
             sRGB.Apply();
         }
+        DrawStopper();
+
     }
 
     public void DrawStopper()
     {
-        stopDrawingButton.SetActive(false);
-        Instantiate(stopper, transform);
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            stopDrawingButton.SetActive(false);
+            Instantiate(stopper, transform);
+
+            reseter.GetComponent<KeyColourReset>().ResetColours();
+        }
+
     }
 }

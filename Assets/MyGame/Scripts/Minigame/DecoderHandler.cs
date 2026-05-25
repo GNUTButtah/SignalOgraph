@@ -5,14 +5,14 @@ using UnityEngine;
 public class DecoderHandler : MonoBehaviour
 {
     [SerializeField] GameObject[] keys;
-    GameObject[,] keysSorted = new GameObject[4, 15];
+    GameObject[,] keysSorted = new GameObject[5, 15];
 
     [SerializeField] Vector2[] locatorPositions;
     [SerializeField] int currentStage;
     [SerializeField] Vector2[] letterEnds;
     [SerializeField] GameObject locator;
 
-
+    GameObject reseter;
 
     GameObject[] reachableKeysSave;
 
@@ -37,9 +37,9 @@ public class DecoderHandler : MonoBehaviour
     }
 
     [Header("TempSaveFields")]
-    public bool[] column1, column2, column3, column4;
-    bool[,] safetyGrid = new bool[4, 15];
-    bool[,] safetyGridUnedited = new bool[4, 15];
+    public bool[] column1, column2, column3, column4, column5;
+    bool[,] safetyGrid = new bool[5, 15];
+    bool[,] safetyGridUnedited = new bool[5, 15];
 
 
 
@@ -51,11 +51,13 @@ public class DecoderHandler : MonoBehaviour
         Instantiate(locator, keysSorted[(int)locatorPositions[0].x, (int)locatorPositions[0].y].transform);
 
         ColorItIn(personalRecolour.restart, null);
+
+        reseter = GameObject.FindGameObjectWithTag("KeyboardReseter");
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (currentStage > 2)
         {
 
             if (GameObject.FindGameObjectsWithTag("Locator") != null)
@@ -67,6 +69,8 @@ public class DecoderHandler : MonoBehaviour
                 }
             }
             Instantiate(stopper, transform);
+
+            reseter.GetComponent<KeyColourReset>().ResetColours();
         }
 
         foreach (KeyCode key in System.Enum.GetValues(typeof(KeyCode)))

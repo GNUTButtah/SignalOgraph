@@ -15,6 +15,8 @@ public class AnimalSpawner : MonoBehaviour
     [SerializeField] GameObject[] keys;
     [SerializeField] GameObject stopper;
 
+    GameObject reseter;
+
     //[SerializeField] TextMeshProUGUI caughtTMP;
     //[SerializeField] TextMeshProUGUI missedTMP;
     public int caught;
@@ -29,12 +31,13 @@ public class AnimalSpawner : MonoBehaviour
 
     private void Update()
     {
-        if (caught >= toCatch
-            || Input.GetKeyDown(KeyCode.DownArrow))
+        if (caught >= toCatch)
         {
             Instantiate(stopper, transform);
             StopAllCoroutines();
             gameActive = false;
+
+            reseter.GetComponent<KeyColourReset>().ResetColours();
         }
     }
 
@@ -42,7 +45,7 @@ public class AnimalSpawner : MonoBehaviour
     {
         
         keys = GameObject.FindGameObjectsWithTag("Key");
-       
+        reseter = GameObject.FindGameObjectWithTag("KeyboardReseter");
     }
 
     private void OnEnable()

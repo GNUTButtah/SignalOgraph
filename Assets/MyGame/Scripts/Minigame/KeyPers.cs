@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
 using static KeyPers;
@@ -13,6 +14,8 @@ public class KeyPers : MonoBehaviour
     public Color pressedColor;
     public Color animalColor;
 
+    public Color generalGameColor;
+
     public int gameID;
     public float timerTime;
 
@@ -20,7 +23,7 @@ public class KeyPers : MonoBehaviour
     public int positionY;
 
     [SerializeField] AnimalSpawner aSpawn;
-    [SerializeField]  DrawHandler dHandler;
+    [SerializeField] DrawHandler dHandler;
     [SerializeField] SignalRGBManager sRGB;
 
     public enum RecolourState
@@ -37,6 +40,8 @@ public class KeyPers : MonoBehaviour
         locatorDrag,
         locatorPath,
         languageBase,
+
+        JustPlaying,
     }
 
     bool animalPresent;
@@ -166,6 +171,10 @@ public class KeyPers : MonoBehaviour
             case RecolourState.languageBase:
                 GetComponent<SpriteRenderer>().color = Color.red;
                 sRGB.SetKeyColor(idKeyCode, Color.red);
+                break;
+            case RecolourState.JustPlaying:
+                GetComponent<SpriteRenderer>().color = generalGameColor;
+                sRGB.SetKeyColor(idKeyCode, generalGameColor);
                 break;
         }
 
