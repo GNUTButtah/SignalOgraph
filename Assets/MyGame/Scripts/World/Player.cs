@@ -1,16 +1,28 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D), typeof(Animator))]
 public class Player : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    private float horizontalInput;
+
+    private Rigidbody2D rb;
+    private Animator animator;
+
+    void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+    }
 
     void FixedUpdate()
     {
-        horizontalInput = Input.GetAxis("Horizontal");
+        // GetAxisRaw gibt -1, 0 oder 1 zurück – kein Smoothing
+        float horizontalInput = Input.GetAxisRaw("Horizontal");
 
-        Vector3 move = new Vector3(horizontalInput * moveSpeed * Time.deltaTime, 0f, 0f);
+        Vector2 velocity = rb.linearVelocity;
+        velocity.x = horizontalInput * moveSpeed;
+        rb.linearVelocity = velocity;
 
-        GetComponent<Rigidbody2D>().MovePosition(transform.position + move);
+        animator.SetBool("Walking", horizontalInput != 0f);
     }
 }

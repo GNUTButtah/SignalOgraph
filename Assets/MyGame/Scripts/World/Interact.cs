@@ -19,6 +19,7 @@ public class Interact : MonoBehaviour
         if (collision.tag == "Player") 
         {
             playerIn = true;
+            
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -35,14 +36,16 @@ public class Interact : MonoBehaviour
         {
             minigame.SetActive(true);
             player.enabled = false;
-            
+            player.GetComponent<Animator>().SetBool("isDrawing", true);
+
         }
         else if (minigame.transform.childCount >= 1)
         {
             minigame.SetActive(false);
             Destroy(minigame.transform.GetChild(0).gameObject);
             player.enabled = true;
-            
+            player.GetComponent<Animator>().SetBool("isDrawing", false);
+
 
             MinigameComplete();
 
