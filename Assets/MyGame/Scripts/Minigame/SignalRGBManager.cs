@@ -15,6 +15,8 @@ public class SignalRGBManager : MonoBehaviour
 
     private void Awake()
     {
+        Debug.Log("LaunchScene.lScene = " + LaunchScene.lScene);
+        Debug.Log("srgbPath = " + (LaunchScene.lScene?.srgbPath ?? "NULL"));
         htmlFilePath = LaunchScene.lScene.srgbPath;
     }
 
