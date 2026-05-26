@@ -64,19 +64,16 @@ public class DrawHandler : MonoBehaviour
             sRGB.SetKeyColor("LeftControl", drawingColors[colorCycler]);
             sRGB.Apply();
         }
-        DrawStopper();
+
 
     }
 
     public void DrawStopper()
     {
-        if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            stopDrawingButton.SetActive(false);
-            Instantiate(stopper, transform);
 
-            reseter.GetComponent<KeyColourReset>().ResetColours();
-        }
+        stopDrawingButton.SetActive(false);
+        Instantiate(stopper, transform);
 
+        reseter.GetComponent<KeyColourReset>().ResetColours();
     }
 }

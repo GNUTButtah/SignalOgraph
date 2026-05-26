@@ -19,7 +19,6 @@ public class Clouds : MonoBehaviour
         CloudObject.transform.position = new Vector3(Mathf.Lerp(startCloudXPos, endCloudXPos, interpolatedCameraPos), CloudObject.transform.position.y, CloudObject.transform.position.z);
         
 
-        Debug.Log("The Interpolated Camera Value is: " + interpolatedCameraPos);
-        Debug.Log("The Cloud's X Position is: " + CloudObject.transform.position.x);
+
     }
 }
