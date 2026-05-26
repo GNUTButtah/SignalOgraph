@@ -6,16 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MyGame/Scenes/OpeningScene.unity
+    path: Assets/MyGame/Scenes/Real/OpeningScene.unity
     guid: 16e4495bf5978c14393f61023f2658c2
   - enabled: 1
-    path: Assets/MyGame/Scenes/Swamp.unity
+    path: Assets/MyGame/Scenes/Real/Swamp.unity
     guid: b57e470e603f0f044b57ead077f37e8d
+  - enabled: 1
+    path: Assets/MyGame/Scenes/Real/EndScreen.unity
+    guid: 034a7255924ab894caf82837071ea4ba
   - enabled: 0
-    path: Assets/MyGame/Scenes/LaunchSceneTest.unity
+    path: Assets/MyGame/Scenes/Testing/LaunchSceneTest.unity
     guid: d4f3aaac1ea092f4185ea4bf0df185cf
   - enabled: 0
-    path: Assets/MyGame/Scenes/TestScene.unity
+    path: Assets/MyGame/Scenes/Testing/TestScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

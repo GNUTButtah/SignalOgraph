@@ -13,6 +13,7 @@ public class DrawHandler : MonoBehaviour
     [SerializeField] GameObject[] keys;
     [SerializeField] GameObject brush;
     [SerializeField] GameObject stopper;
+    [SerializeField] GameEnder gameEnder;
 
     GameObject reseter;
 
@@ -70,10 +71,12 @@ public class DrawHandler : MonoBehaviour
 
     public void DrawStopper()
     {
+        Debug.Log("We got to the stopper");
 
         stopDrawingButton.SetActive(false);
         Instantiate(stopper, transform);
 
         reseter.GetComponent<KeyColourReset>().ResetColours();
+        gameEnder.LetTheGameEnd();
     }
 }
