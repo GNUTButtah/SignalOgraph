@@ -6,11 +6,9 @@ public class KeyColourReset : MonoBehaviour
 
     public Color baseGameColor;
 
-    private void Start()
+    private void Awake()
     {
         keys = GameObject.FindGameObjectsWithTag("Key");
-
-
 
         ResetColours();
     }
