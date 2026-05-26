@@ -51,8 +51,8 @@ public class KeyPers : MonoBehaviour
         aSpawn = GameObject.FindGameObjectWithTag("AnimalSpawner").GetComponent<AnimalSpawner>();
         aSpawn.OnAnimalSpawned += AnimalAppeared;
 
-        dHandler = GameObject.FindGameObjectWithTag("DrawHandler").GetComponent<DrawHandler>();
-        dHandler.OnWhoToDraw += DrawResponse;
+        //dHandler = GameObject.FindGameObjectWithTag("DrawHandler").GetComponent<DrawHandler>();
+        //dHandler.OnWhoToDraw += DrawResponse;
 
         sRGB = GameObject.FindGameObjectWithTag("SRGB").GetComponent<SignalRGBManager>();
         
@@ -149,8 +149,8 @@ public class KeyPers : MonoBehaviour
                 break;
 
             case RecolourState.draw:
-                GetComponent<SpriteRenderer>().color = dHandler.currentColor;
-                sRGB.SetKeyColor(idKeyCode, dHandler.currentColor);
+                //GetComponent<SpriteRenderer>().color = dHandler.currentColor;
+                //sRGB.SetKeyColor(idKeyCode, dHandler.currentColor);
                 break;
             case RecolourState.simpleBase:
                 GetComponent<SpriteRenderer>().color = Color.white;

@@ -10,14 +10,14 @@ public class KeyColourReset : MonoBehaviour
     {
         keys = GameObject.FindGameObjectsWithTag("Key");
 
-        ResetColours();
+        ResetColours(baseGameColor);
     }
 
-    public void ResetColours()
+    public void ResetColours(Color color)
     {
         foreach (var key in keys)
         {
-            key.GetComponent<KeyPers>().GetComponent<KeyPers>().generalGameColor = baseGameColor;
+            key.GetComponent<KeyPers>().GetComponent<KeyPers>().generalGameColor = color;
             key.GetComponent<KeyPers>().GetComponent<KeyPers>().recolourEverything(KeyPers.RecolourState.JustPlaying);
         }
     }

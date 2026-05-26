@@ -1,4 +1,4 @@
-using System;
+ using System;
 using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 
@@ -70,7 +70,7 @@ public class DecoderHandler : MonoBehaviour
             }
             Instantiate(stopper, transform);
 
-            reseter.GetComponent<KeyColourReset>().ResetColours();
+            reseter.GetComponent<KeyColourReset>().ResetColours(reseter.GetComponent<KeyColourReset>().baseGameColor);
         }
 
         foreach (KeyCode key in System.Enum.GetValues(typeof(KeyCode)))

@@ -37,7 +37,7 @@ public class AnimalSpawner : MonoBehaviour
             StopAllCoroutines();
             gameActive = false;
 
-            reseter.GetComponent<KeyColourReset>().ResetColours();
+            reseter.GetComponent<KeyColourReset>().ResetColours(reseter.GetComponent<KeyColourReset>().baseGameColor);
         }
     }
 

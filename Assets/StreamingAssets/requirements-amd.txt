@@ -1,0 +1,9 @@
+torch-directml==0.2.5.dev240914
+diffusers==0.24.0
+transformers==4.35.2
+huggingface-hub==0.19.4
+accelerate==0.23.0
+pillow==11.3.0
+numpy==1.26.4
+opencv-python==4.8.1.78
+safetensors==0.7.0
