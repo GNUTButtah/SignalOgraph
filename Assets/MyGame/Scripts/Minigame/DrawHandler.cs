@@ -37,6 +37,9 @@ public class DrawHandler : MonoBehaviour
         );
         pixelImageTexture.filterMode = FilterMode.Point;
         ClearPixelImage();
+
+        reseter = GameObject.FindGameObjectWithTag("KeyboardReseter");
+        reseter.GetComponent<KeyColourReset>().TurnEveryKeyOneState(KeyPers.RecolourState.successBlack);
     }
 
     void Update()
@@ -60,7 +63,10 @@ public class DrawHandler : MonoBehaviour
 
     private void OnDisable()
     {
-        selectedColorImage.SetActive(false);
+        if (selectedColorImage != null)
+        {
+            selectedColorImage.SetActive(false);
+        }
     }
 
 

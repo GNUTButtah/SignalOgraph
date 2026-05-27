@@ -40,8 +40,12 @@ public class KeyPers : MonoBehaviour
         locatorDrag,
         locatorPath,
         languageBase,
+        wrongKeyPressed,
+        successGreen,
+        successBlack,
 
         JustPlaying,
+        notPlaying
     }
 
     bool animalPresent;
@@ -169,12 +173,29 @@ public class KeyPers : MonoBehaviour
                 sRGB.SetKeyColor(idKeyCode, Color.yellow);
                 break;
             case RecolourState.languageBase:
-                GetComponent<SpriteRenderer>().color = Color.red;
-                sRGB.SetKeyColor(idKeyCode, Color.red);
+                GetComponent<SpriteRenderer>().color = Color.black;
+                sRGB.SetKeyColor(idKeyCode, Color.black);
                 break;
             case RecolourState.JustPlaying:
                 GetComponent<SpriteRenderer>().color = generalGameColor;
                 sRGB.SetKeyColor(idKeyCode, generalGameColor);
+                break;
+            case RecolourState.successGreen:
+                GetComponent<SpriteRenderer>().color = Color.green;
+                sRGB.SetKeyColor(idKeyCode, Color.green);
+                break;
+            case RecolourState.successBlack:
+                GetComponent<SpriteRenderer>().color = Color.black;
+                sRGB.SetKeyColor(idKeyCode, Color.black);
+                break;
+
+            case RecolourState.wrongKeyPressed:
+                GetComponent<SpriteRenderer>().color = Color.red;
+                sRGB.SetKeyColor(idKeyCode, Color.red);
+                break;
+            case RecolourState.notPlaying:
+                GetComponent<SpriteRenderer>().color = Color.white;
+                sRGB.SetKeyColor(idKeyCode, Color.white);
                 break;
         }
 

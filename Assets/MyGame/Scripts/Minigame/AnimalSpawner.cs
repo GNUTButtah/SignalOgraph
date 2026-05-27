@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using Random = UnityEngine.Random;
-using TMPro;
 
 public class AnimalSpawner : MonoBehaviour
 {
@@ -45,11 +46,14 @@ public class AnimalSpawner : MonoBehaviour
     {
         
         keys = GameObject.FindGameObjectsWithTag("Key");
-        reseter = GameObject.FindGameObjectWithTag("KeyboardReseter");
+        
+        
     }
 
     private void OnEnable()
     {
+        reseter = GameObject.FindGameObjectWithTag("KeyboardReseter");
+        reseter.GetComponent<KeyColourReset>().TurnEveryKeyOneState(KeyPers.RecolourState.successBlack);
         gameActive = true;
         StartCoroutine(SpawnInterval());
     }
@@ -69,8 +73,14 @@ public class AnimalSpawner : MonoBehaviour
         List<GameObject> freeKeys = new List<GameObject>();
         foreach (var key in keys)
         {
-            if (key.transform.childCount == 0)
+            if (key.name == "K_LESS" || key.name == "K_FN" || key.name == "K_RAZER" || key.name == "K_LWINDOWS")
+            {
+                continue;
+            }
+            else if (key.transform.childCount == 0)
+            {
                 freeKeys.Add(key);
+            }
         }
         GameObject selectedKey;
         selectedKey = freeKeys[Random.Range(0, freeKeys.Count)];
