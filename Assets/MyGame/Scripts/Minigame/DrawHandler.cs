@@ -9,6 +9,8 @@ public class DrawHandler : MonoBehaviour
 
     [SerializeField] GameObject stopper;
     [SerializeField] GameEnder gameEnder;
+    [SerializeField] GameObject pixelTransformer;
+
 
     GameObject reseter;
 
@@ -59,6 +61,7 @@ public class DrawHandler : MonoBehaviour
     private void OnEnable()
     {
         selectedColorImage.SetActive(true);
+        stopDrawingButton.SetActive(true);
     }
 
     private void OnDisable()
@@ -266,7 +269,12 @@ public class DrawHandler : MonoBehaviour
     public void DrawStopper()
     {
         Debug.Log("We got to the stopper");
-
+        pixelTransformer = GameObject.FindGameObjectWithTag("PixelTransformer");
+        Debug.Log("Pixeltransformer: " + pixelTransformer.name);
+        if (pixelTransformer != null)
+        {
+            pixelTransformer.GetComponent<TransformerCaller>().SendGenerateCommand(1);
+        }
         stopDrawingButton.SetActive(false);
         Instantiate(stopper, transform);
 

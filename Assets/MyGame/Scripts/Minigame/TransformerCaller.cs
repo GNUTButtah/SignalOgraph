@@ -4,6 +4,7 @@ using System.IO;
 using System.Net.Sockets;
 using System.Text;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TransformerCaller : MonoBehaviour
 {
@@ -17,6 +18,9 @@ public class TransformerCaller : MonoBehaviour
 
     // Der Inhalt von der Pythonmessage
     private string pythonMessageContent;
+
+    private Image generatedImage;
+    private Image waitImage;
 
     // Variable mit get/set, damit man immer, wenn sich die message ändert etwas machen kann 
     public string pythonMessage
@@ -40,7 +44,7 @@ public class TransformerCaller : MonoBehaviour
         }
     }
 
-    void Start()
+    public void PressedRegularStartButton(bool createNoWindow)
     {
         DontDestroyOnLoad(this.gameObject);
         //Die install bzw. launch scripts für den stablediffusion Teil des games sind je nach Platform und Hardware auf dem das game gespielt wird unterschiedlioch, deswegen ist die Start function so lang
@@ -59,7 +63,6 @@ public class TransformerCaller : MonoBehaviour
             // Pfad in Anführungszeichen, weil die Ordnerstruktur von dem, der das Spiel spielt ein Leerzeichen drinnen haben kann und das sonst im Terminal alles kaputt macht
             arguments = "\"" + Application.streamingAssetsPath + "/start_mac.sh\"";
         }
-
 
         // überprüfen ob das game auf windows läuft
         else if (Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.WindowsEditor)
@@ -82,10 +85,7 @@ public class TransformerCaller : MonoBehaviour
                 {
                     UnityEngine.Debug.Log($"NVIDIA detected. Launching CUDA setup script at {batPath}");
                 }
-                    
             }
-
-
             else
             {
                 batPath = Application.streamingAssetsPath + "/start_windows_amd.bat";
@@ -94,7 +94,6 @@ public class TransformerCaller : MonoBehaviour
                 {
                     UnityEngine.Debug.LogError("AMD/INTEL installscript not found: " + batPath);
                 }
-
                 else
                 {
                     UnityEngine.Debug.Log("AMD/Intel detected. Launching DirectML setup script.");
@@ -111,14 +110,12 @@ public class TransformerCaller : MonoBehaviour
         }
 
         // Hier wird der Prozess erstellt, mit all den Parametern die über das System gesammelt wurden
-        
         backendProcess.StartInfo.FileName = fileName;
         backendProcess.StartInfo.Arguments = arguments;
 
         // Wenn man kein Terminal Fenster haben will, kann man das hier ändern, aber dann hat man halt keinen Ahnhaltspunkt, der einem sagt, wie weit die dependencies schon runtergeladen sind
         backendProcess.StartInfo.UseShellExecute = true;
-        backendProcess.StartInfo.CreateNoWindow = false;
-
+        backendProcess.StartInfo.CreateNoWindow = createNoWindow;
 
         // Hier wird der Prozess dann endlich ausgeführt
         try
@@ -159,10 +156,8 @@ public class TransformerCaller : MonoBehaviour
             {
                 //Triggert den set block von oben
                 pythonMessage = rawLine;
-
             }
         }
-
         else if (client == null || !client.Connected)
         {
             reconnectTimer += Time.deltaTime; // Add the time since the last frame
@@ -182,14 +177,11 @@ public class TransformerCaller : MonoBehaviour
     {
         UnityEngine.Debug.Log("Message von Python: " + pythonMessage);
 
-        // Put your game logic here!
-        // Example:
-        // if (cmd.StartsWith("DONE")) 
-        // {
-        //     string[] parts = cmd.Split('|');
-        //     string level = parts[1];
-        //     UnityEngine.Debug.Log("Ready to load level: " + level);
-        // }
+        if (pythonMessage.Contains("DONE"))
+        {
+            // When Python says it's done generating, swap the image
+            GameFinished();
+        }
     }
 
     public void SendGenerateCommand(int levelId)
@@ -218,7 +210,6 @@ public class TransformerCaller : MonoBehaviour
 
             UnityEngine.Debug.Log("Sent command to Python: " + messageToSend);
         }
-
         catch (System.Exception e)
         {
             UnityEngine.Debug.LogError("Error sending command to Python: " + e.Message);
@@ -232,7 +223,6 @@ public class TransformerCaller : MonoBehaviour
 
         KillProcessTree(backendProcess);
     }
-
 
     public void CloseConnection()
     {
@@ -266,7 +256,6 @@ public class TransformerCaller : MonoBehaviour
             UnityEngine.Debug.Log($"Already quit Process {process.ProcessName}");
             return;
         }
-
         else
         {
             UnityEngine.Debug.Log($"Trying to Quit the following Program: {process.ProcessName}");
@@ -280,7 +269,44 @@ public class TransformerCaller : MonoBehaviour
 
             process.Dispose();
         }
-
     }
-    
+
+    public void GameFinished()
+    {
+        // 1. Get the placeholder image
+        waitImage = GameObject.FindGameObjectWithTag("DrawnImage").GetComponent<Image>();
+
+        if (waitImage == null)
+        {
+            UnityEngine.Debug.LogError("Could not find an Image with the tag 'DrawnImage'!");
+            return;
+        }
+
+        // 2. Establish the exact path to the output image
+        string fileName = "output_level_1.png";
+        string filePath = Path.Combine(Application.streamingAssetsPath, fileName);
+
+        // 3. Read the image and apply it
+        if (File.Exists(filePath))
+        {
+            // Read bytes from the drive
+            byte[] fileData = File.ReadAllBytes(filePath);
+
+            // Create a temporary texture. (The 2x2 size is a placeholder; LoadImage automatically resizes it)
+            Texture2D texture = new Texture2D(2, 2);
+            texture.LoadImage(fileData);
+
+            // Convert to a Sprite
+            Sprite newSprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0.5f, 0.5f));
+
+            // Overwrite the placeholder!
+            waitImage.sprite = newSprite;
+
+            UnityEngine.Debug.Log("Successfully loaded the new AI generated image.");
+        }
+        else
+        {
+            UnityEngine.Debug.LogError($"File not found. Expected AI image at: {filePath}");
+        }
+    }
 }

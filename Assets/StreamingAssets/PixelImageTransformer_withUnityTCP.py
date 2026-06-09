@@ -15,7 +15,7 @@ NEGATIVE_PROMPT = (
 
 # Prompts für jedes level
 PROMPTS = {
-    "1": "make it look like a much more detailed handmade painting of a fantasy purple swamp landscape, foggy, dark green tones, mystical atmosphere. keep the locations and proportions of the objects but keep their shape.  dark green = leaves, light brown = dry leaves, dark brown = tree trunk, deep purple = sky, light purple = clouds, yellow = MOON",
+    "1": "make it look like a simple handmade painting of a fantasy purple swamp landscape, with mystical atmosphere. keep the locations and proportions of the objects but keep their shape. Everything dark green = leaves and vines, olive green = leaves and bushes, dark brown = tree trunk, dark purple = sky, light purple = clouds, yellow = MOON",
     "2": "make it look like a much more detailed handmade painting of a fantasy desert landscape. keep the locations and proportions of the objects but keep their shape. Everything orange = sand, light green = green sky, red = canyon mountains, white = clouds and dark green = cactus. the ONE yellow spot is ONE sun.",
     "3": "mountain landscape, snowy peaks, dramatic sky, high detail"
 }
